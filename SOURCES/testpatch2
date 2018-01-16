@@ -1,0 +1,15 @@
+Test Patch 2
+
+diff --git a/nsource/cmd/test.py b/nsource/cmd/test.py
+index d3b5af0..7c043d0 100644
+--- a/nsource/cmd/test.py
++++ b/nsource/cmd/test.py
+@@ -5,7 +5,7 @@ import argparse
+ def main():
+     parser = argparse.ArgumentParser(description="nsource: Test for planex building")
+     parser.add_argument("testArg", metavar="TestArg",
+-                        help="Simple argument for testing")
++                        help="Simple argument for testing building")
+ 
+     args = parser.parse_args()
+     # Only print out the arguments

@@ -1,0 +1,12 @@
+Test Patch 1
+
+diff --git a/nsource/cmd/test.py b/nsource/cmd/test.py
+index ab56c1e..d3b5af0 100644
+--- a/nsource/cmd/test.py
++++ b/nsource/cmd/test.py
+@@ -9,4 +9,4 @@ def main():
+ 
+     args = parser.parse_args()
+     # Only print out the arguments
+-    print("TestArg: %s" % (args.testArg))
++    print("The TestArg is: %s" % (args.testArg))
